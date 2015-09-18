@@ -12,7 +12,6 @@
     margin: auto;
 }
 
-
 #Navigation {
     width: 960px;
     height: 100px;
@@ -22,10 +21,11 @@
 
 ul{
     list-style: none;
+    margin: auto;
+    padding-left: 300px;
 }
 
 li{
-    margin: auto;
     float: left;
     padding: 20px;
 }
@@ -36,7 +36,6 @@ li{
     width: 960px;
     height: 600px;
 }
-
 
 #left {
     width: 480px;
