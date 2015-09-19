@@ -3,6 +3,26 @@
     padding: 0;
 }
 
+a:link {
+    color: #FF0000
+}
+
+a:visited {
+    color: #00FF00
+}
+
+a:hover {
+    color: #FF00FF
+}
+
+a:active {
+    color: #0000FF
+}
+
+body {
+    background: bisque;
+}
+
 #header {
     font-weight: bolder;
     text-align: center;
@@ -19,27 +39,27 @@
     background: chartreuse;
 }
 
-ul{
+ul {
     list-style: none;
     margin: auto;
     padding-left: 300px;
+    padding-top: 20px;
 }
 
-li{
+li {
     float: left;
     padding: 20px;
 }
 
-
 #container {
     margin: auto;
     width: 960px;
-    height: 600px;
+    height: 700px;
 }
 
 #left {
     width: 480px;
-    height: 600px;
+    height: 700px;
     margin: auto;
     background: aqua;
     float: left;
@@ -47,7 +67,7 @@ li{
 
 #right {
     width: 480px;
-    height: 600px;
+    height: 700px;
     margin: auto;
     background: chocolate;
     float: right;
@@ -62,4 +82,6 @@ li{
     margin: auto;
 }
 
-
+.center {
+    padding: 45px;
+}
