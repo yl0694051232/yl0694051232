@@ -8,6 +8,10 @@
     height: 360px;
 }
 
+body{
+
+    background:url("../img/bg.bed312e5.png") repeat;
+}
 .inner_wrapper {
     width: 740px;
     margin: 0 auto;
@@ -93,6 +97,7 @@ input {
 #Container {
     background: url("../img/bg.bed312e5.png") repeat;
     height: 360px;
+    margin: 50px 0;
 
 }
 
@@ -107,25 +112,60 @@ input {
     height: 360px;
     float: left;
 
+
 }
 
 .photo{
-    width: 72px;
-    height: 72px;
+    width: 60px;
+    height: 60px;
     float: left;
-    border-radius: 32px;
+    margin: 0 10px 10px 0;
+    border-radius: 45px 45px 45px 45px;
     overflow:hidden;
+    padding: 1px;
 }
 
 .inner_Container_right{
     width: 440px;
-    height: 356px;
+    height: 306px;
     float: right;
+    padding: 27px 30px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    background: #FFFFFF;
+}
+
+.icon{
+    width: 46px;
+    height: 46px;
+    border-radius: 25px 25px 25px 25px;
+    overflow:hidden;
+    float: left;
+}
+
+.word{
+    width: 384px;
+    float: left;
+    margin-left: 10px;
+}
+
+.number{
+    float: left;
+    background: none repeat scroll 0 0 #B0C5D6;
+    border-radius: 3px 3px 3px 3px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 38px;
 }
 
 
-
-
+.line{
+    border-top: solid 1px #F3F5F7;
+    margin: 18px 0;
+    padding-top: 18px;
+}
 
 
 
