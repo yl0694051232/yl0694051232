@@ -1,3 +1,5 @@
+package exercise;
+
 /**
  * Created by Administrator on 2015/10/18.
  */
@@ -5,7 +7,7 @@
 public class E3 {
     public static void main(String[] args) {
         int i,j,k;
-        for (int n= 100; n <1000 ; n++) {
+        for (int n = 100; n < 1000 ; n++) {
             i=n/100;
             j=(n-i*100)/10;
             k=n%10;
