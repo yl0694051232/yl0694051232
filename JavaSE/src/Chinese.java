@@ -16,7 +16,6 @@ public class Chinese extends Human {
         System.out.println("hello world!");
         super.sing();
         return "ad";
-
     }
     public static void main(String[] args) {
         Chinese chinese = new Chinese("yellow");
